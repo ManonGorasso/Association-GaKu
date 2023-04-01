@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    height: 100vh;
+    width: 100vW;
+    padding: 0px;
+    margin: 0px;
+
+    background-image: url("../Images/Background/Tori-black-white.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    color:#B63B1A;
+    box-sizing: border-box;
+}
+
+body,
+header,
+main,
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    padding: 2em 0px;
+    width: 80%;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #130F0C;
+    color: #F9FAF9;
+    font-size: 12px;
+    text-align: center;
+    padding: 4px 0px;
+}
+
+/* Temporary button style */
+button {
+    background-color: #B63B1A;
+    font-weight: 600;
+    color: #F9FAF9;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 28px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #E2B1A3 ;
+    color: #130F0C;
+
+}
+
+button:active {
+    background-color: #CC765F ;
+    color: #130F0C;
+}
