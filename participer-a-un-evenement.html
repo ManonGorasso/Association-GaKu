@@ -13,7 +13,91 @@
     <meta name="description" content="Description de ma page à compléter - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." />
 </head>
 <body>
+    <header>
+        <div>
+            <img src="./Images/GaKu-logo.svg" alt="GaKu-logo.svg">
+            <p>がく - GaKu</p>
+            <p>Association franco-japonaise</p>
+        </div>
+        <nav>
+            <a href="./index.html">Accueil</a>
+            <a href="./a-propos.html">A propos</a>
+            <a href="./evenements.html">Evénements</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="./evenements.html">Evénements</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Participer à un événement</li>
+            </ol>
+        </nav>
+
+        <h1>Vous souhaitez participer à un événement ?</h1>
+        <p>Envoyez-nous un message et nous confirmerons votre participation à l’évement par mail.</p>
+        
+        <form action="">
+            <div>
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email" value="email@email.fr"><br>
+            </div>
+
+            <div>
+                <label for="evenement">Je souhaite participer à :</label><br>
+                <select id="evenement" aria-label="Default select example">
+                    <option selected>Sélectionner un événement</option>
+                    <option value="1">VOYAGE - A la découverte du Japon</option>
+                    <option value="2">COURS - Paris - Introduction au japonais</option>
+                    <option value="3">COURS - Metz - Introduction au japonais</option>
+                    <option value="4">COURS - Lyon - Introduction au japonais</option>
+                    <option value="5">COURS - Nantes - Introduction au japonais</option>
+                    <option value="6">COURS - Bordeaux - Introduction au japonais</option>
+                    <option value="7">COURS - Nice - Introduction au japonais</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="message">Message (facultatif)</label><br>
+                <textarea id="message" name="message" rows="4" cols="50">Votre message</textarea><br><br>
+            </div>
+
+            <button type="submit">Je souhaite participer</button>
+        </form>
+    </main>
+
+    <footer>
+        <!-- Logo et nom -->
+        <div>
+            <img src="./Images/GaKu-logo.svg" alt="GaKu-logo.svg">
+            <p>がく - GaKu</p>
+            <p>Association franco-japonaise</p>
+        </div>
+
+        <!-- Adresse et contact -->
+        <div>
+            <p>
+                18, allée du Voyage</br>
+                20 416 Nihontown</br>                
+                France
+            </p>
+            <a href="tel:+33 7 00 23 18 93">+33 7 00 23 18 93</a>
+            <a href="mailto:association-gaku@email.fr">association-gaku@email.fr</a>
+        </div>
+
+        <!-- Réseaux sociaux -->
+        <div>
+            <ul>
+                <li><a href="#"><img src="./Images/Icons/Facebook-icon.svg" alt="facebook-icon"></a></li>
+                <li><a href="#"><img src="./Images/Icons/Instagram-icon.svg" alt="instagram-icon"></a></li>
+                <li><a href="#"><img src="./Images/Icons/Twitter-icon.svg" alt="twitter-icon"></a></li>
+            </ul>
+        </div>
     
+        <!-- Copyrights -->
+        <p>© 2023 Manon Gorasso All rights reserved.</br>GaKu S.R.L. - Site factice</p>
+    </footer>
 
     <!-- Bootstrap JavaScript -->
     <script src="./bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
