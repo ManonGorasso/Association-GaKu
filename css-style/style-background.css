@@ -1,0 +1,14 @@
+.background-img {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img1 {
+    background-image: url("../Images/Background/Tori-black-white.jpg");
+}
+
+.img2 {
+    background-image: url("../Images/Background/Tori-red.jpg");
+}
