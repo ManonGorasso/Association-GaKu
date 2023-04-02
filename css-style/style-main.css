@@ -1,0 +1,89 @@
+/* Style main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 77px;                   /* change selon hauteur header */
+    width: 75%;                         /* change selon media queries */
+
+    padding: 40px 32px;
+    gap: 32px;
+}
+
+/* style index page */
+.index-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+
+    height: 85vh;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+
+    gap: 24px;
+    width: 100%;
+}
+
+.title-container > h1,
+.title-container > h2 {
+    font-size: 24px;
+    color: #B63B1A;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+.title-container > h1 {
+    text-align: left;   
+}
+
+.title-container > h2 {
+    text-align: right;
+}
+
+/* Style other pages */
+
+.fil-ariane {
+    display: flex;
+    justify-content: flex-start;
+
+    width: 100%;
+}
+
+h1,
+h2 {
+    text-align: left;
+    width: 100%;
+    font-size: 24px;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+}
+
+article > img {
+    width: 100%;
+    height: auto;
+    border: 4px solid #7C817B;
+}
+
+article > section {
+    width: 100%;
+    text-align: justify;
+}

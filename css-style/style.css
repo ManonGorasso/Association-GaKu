@@ -22,18 +22,6 @@ hr {
 }
 
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    margin-top: 77px;                   /* change selon hauteur header */
-    width: 75%;                         /* change selon media queries */
-}
-
-
-
-
 /* General font colors and font weight */
 
 .font-red {
