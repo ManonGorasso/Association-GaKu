@@ -12,7 +12,8 @@
     color: #F9FAF9;
 }
 
-.btn-red:hover {
+.btn-red:hover,
+.btn-red:focus {
     cursor: pointer;
     background-color: #E2B1A3 ;
     color: #130F0C;
@@ -30,7 +31,8 @@
     color: #F9FAF9;
 }
 
-.btn-green:hover {
+.btn-green:hover,
+.btn-green:focus {
     cursor: pointer;
     background-color: #CBCDCA ;
     color: #130F0C;
