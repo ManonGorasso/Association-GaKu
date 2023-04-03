@@ -1,0 +1,20 @@
+/* Breadcrumb style */
+
+.fil-ariane {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 16px;
+
+    width: 100%;
+}
+
+a.font-red:hover {
+    color: #130F0C;
+}
+
+/* Customisation Breadcrumb Bootstrap */
+
+.breadcrumb {
+    --bs-breadcrumb-divider-color: #7C817B;
+    --bs-breadcrumb-item-active-color: #7C817B;
+}
