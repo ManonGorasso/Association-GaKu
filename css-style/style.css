@@ -7,23 +7,22 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     font-size: 18px;                /* change selon les media queries */
+    line-height: 150%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
 hr {
     display: flex;
-    border-style: inset;
+    border-style: solid;
     border-width: 2px;
     border-color: #7C817B;
+    margin: 0;
 }
 
-
 /* General font colors and font weight */
-
 .font-red {
     color: #B63B1A;
 }
@@ -49,3 +48,75 @@ hr {
 }
 
 
+
+/* MEDIA QUERIES - breakpoint idem Bootstrap */
+
+@media screen and (min-width: 576px) {
+    /* SM */
+    /*
+    font-size
+    header : 24px
+    default : 18px
+    secondary : 16px
+    tertiary caption : 12px
+    */
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    /* MD */
+    /*
+    font-size
+    header : 28px
+    default : 18px
+    secondary : 16px
+    tertiary caption : 12px
+    */
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* LG */
+    /*
+    font-size
+    header : 28px
+    default : 18px
+    secondary : 16px
+    tertiary caption : 12px
+    */
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* XL */
+    /*
+    font-size
+    header : 32px
+    default : 20px
+    secondary : 18px
+    tertiary caption : 14px
+    */
+    body {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    /* XXL */
+    /*
+    font-size
+    header : 32px
+    default : 20px
+    secondary : 18px
+    tertiary caption : 14px
+    */
+    body {
+        font-size: 20px;
+    }
+}
