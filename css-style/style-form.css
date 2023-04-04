@@ -1,0 +1,40 @@
+/* Form style */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.form-field {
+    width: 100%;
+}
+
+/* Customisation Form Bootstrap */
+
+.form-control {
+    color: #130F0C;
+    background-color: #F9FAF9;
+    border: 1px solid #7C817B;
+}
+
+.form-control:focus {
+    color: #130F0C;
+    background-color: #F9FAF9;
+    border-color: #CBCDCA;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(203, 205, 202, 0.5);
+}
+
+.form-select {
+    color: #130F0C;
+    background-color: #CBCDCA;
+    border: 1px solid #7C817B;
+}
+
+.form-select:focus {
+    border-color: #CBCDCA;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(203, 205, 202, 0.5);
+}

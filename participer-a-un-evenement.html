@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css-style/style-breadcrumb.css">
     <link rel="stylesheet" href="./css-style/style-button.css">
     <link rel="stylesheet" href="./css-style/style-footer.css">
+    <link rel="stylesheet" href="./css-style/style-form.css">
     <link rel="stylesheet" href="./css-style/style-header.css">
     <link rel="stylesheet" href="./css-style/style-main.css">
     <link rel="stylesheet" href="./css-style/style-logo.css">
@@ -76,16 +77,16 @@
         <h1>Vous souhaitez participer à un événement ?</h1>
         <p>Envoyez-nous un message et nous confirmerons votre participation à l’évement par mail.</p>
         
-        <form action="">
-            <div>
-                <label for="email">Email</label><br>
-                <input type="text" id="email" name="email" value="email@email.fr"><br>
+        <form method="" action="">
+            <div class="mb-3 form-field">
+                <label for="email" class="form-label">Email</label>
+                <input type="text" id="email" name="email" placeholder="email@email.fr" class="form-control" required>
             </div>
 
-            <div>
-                <label for="evenement">Je souhaite participer à :</label><br>
-                <select id="evenement" aria-label="Default select example">
-                    <option selected>Sélectionner un événement</option>
+            <div class="mb-3 form-field">
+                <label for="evenement" class="form-label">Je souhaite participer à :</label>
+                <select id="evenement" aria-label="Default select example" class="form-select" required>
+                    <option selected disabled value="">Sélectionner un événement</option>
                     <option value="1">VOYAGE - A la découverte du Japon</option>
                     <option value="2">COURS - Paris - Introduction au japonais</option>
                     <option value="3">COURS - Metz - Introduction au japonais</option>
@@ -96,9 +97,9 @@
                 </select>
             </div>
 
-            <div>
-                <label for="message">Message (facultatif)</label><br>
-                <textarea id="message" name="message" rows="4" cols="50">Votre message</textarea><br><br>
+            <div class="mb-3 form-field">
+                <label for="message" class="form-label">Message (facultatif)</label>
+                <textarea id="message" name="message" rows="10" cols="50" class="form-control" placeholder="Votre message"></textarea>
             </div>
 
             <button type="submit" class="btn btn-green">Je souhaite participer</button>
