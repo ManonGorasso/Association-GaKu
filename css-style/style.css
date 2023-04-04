@@ -14,14 +14,6 @@ body {
     align-items: center;
 }
 
-hr {
-    display: flex;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #7C817B;
-    margin: 0;
-}
-
 /* General font colors and font weight */
 .font-red {
     color: #B63B1A;

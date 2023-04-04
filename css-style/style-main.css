@@ -12,7 +12,7 @@ main {
     gap: 32px;
 }
 
-/* style index page */
+/* style page Index */
 .index-container {
     display: flex;
     flex-direction: column;
@@ -57,6 +57,33 @@ main {
     text-align: right;
 }
 
+/* Style page A propos */
+
+.a-propos-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 32px;
+
+    padding-bottom: 32px;
+    border-bottom: solid 2px #7C817B;
+}
+
+.a-propos-container > img {
+    width: 100%;
+    height: auto;
+    border: 4px solid #7C817B;
+}
+
+.a-propos-container > section {
+    width: 100%;
+    text-align: justify;
+    line-height: 150%;
+}
+
+
 
 /* Style autres pages */
 h1,
@@ -68,25 +95,6 @@ h2 {
 
 h1 {
     font-weight: 600;
-}
-
-article {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-
-    gap: 16px;
-}
-
-article > img {
-    width: 100%;
-    height: auto;
-    border: 4px solid #7C817B;
-}
-
-article > section {
-    width: 100%;
-    text-align: justify;
 }
 
 
@@ -130,6 +138,23 @@ article > section {
     secondary : 16px
     tertiary caption : 12px
     */
+    .a-propos-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .a-propos-container > img {
+        width: 50%;
+        height: auto;
+        border: 4px solid #7C817B;
+    }
+    
+    .a-propos-container > section {
+        width: 50%;
+        text-align: justify;
+    }
 }
 
 @media screen and (min-width: 1200px) {
