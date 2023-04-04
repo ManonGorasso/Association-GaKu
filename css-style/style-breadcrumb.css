@@ -8,7 +8,7 @@
     width: 100%;
 }
 
-a.font-red:hover {
+.breadcrumb-item > a:hover {
     color: #130F0C;
 }
 

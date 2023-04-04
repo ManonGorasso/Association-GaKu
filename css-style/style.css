@@ -2,12 +2,11 @@
 
 * {
     box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 body {
-    font-family: 'Noto Sans', sans-serif;
     font-size: 18px;                /* change selon les media queries */
-    /* line-height: 150%;           A placer uniquement dans les paragraphes de texte !*/
 
     display: flex;
     flex-direction: column;
@@ -17,11 +16,10 @@ body {
 h1 {
     width: 100%;
     text-align: left;
-    font-size: 24px;
+    font-size: 24px;                /* change selon les media queries */
     font-weight: 600;
 }
 
-/* General font colors and font weight */
 .font-red {
     color: #B63B1A;
 }
@@ -38,12 +36,8 @@ h1 {
     background-color:#DFE4E2;
 }
 
-.bg-white {
-    background-color: #F9FAF9;
-}
-
-.bg-black {
-    background-color: #130F0C;
+.semi-bold {
+    font-weight: 600;
 }
 
 
@@ -52,13 +46,6 @@ h1 {
 
 @media screen and (min-width: 576px) {
     /* SM */
-    /*
-    font-size
-    header : 24px
-    default : 18px
-    secondary : 16px
-    tertiary caption : 12px
-    */
     body {
         font-size: 18px;
     }
@@ -70,13 +57,6 @@ h1 {
 
 @media screen and (min-width: 768px) {
     /* MD */
-    /*
-    font-size
-    header : 28px
-    default : 18px
-    secondary : 16px
-    tertiary caption : 12px
-    */
     body {
         font-size: 18px;
     }
@@ -88,13 +68,6 @@ h1 {
 
 @media screen and (min-width: 992px) {
     /* LG */
-    /*
-    font-size
-    header : 28px
-    default : 18px
-    secondary : 16px
-    tertiary caption : 12px
-    */
     body {
         font-size: 18px;
     }
@@ -106,13 +79,6 @@ h1 {
 
 @media screen and (min-width: 1200px) {
     /* XL */
-    /*
-    font-size
-    header : 32px
-    default : 20px
-    secondary : 18px
-    tertiary caption : 14px
-    */
     body {
         font-size: 20px;
     }
@@ -124,13 +90,6 @@ h1 {
 
 @media screen and (min-width: 1400px) {
     /* XXL */
-    /*
-    font-size
-    header : 32px
-    default : 20px
-    secondary : 18px
-    tertiary caption : 14px
-    */
     body {
         font-size: 20px;
     }

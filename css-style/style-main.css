@@ -42,7 +42,7 @@ main {
 
 .index-title > h1,
 .index-title > h2 {
-    font-size: 24px;
+    font-size: 24px;                    /* change selon media queries */
     color: #B63B1A;
     font-weight: 600;
     padding: 0;
@@ -107,11 +107,16 @@ main {
 @media screen and (min-width: 768px) {
     /* MD */
     main {
-        width: 58%;                         /* change selon media queries */
+        width: 58%;                         
     }
 
     .index-container {
-        width: 550px;                       /* change selon media queries */
+        width: 550px;                       
+    }
+
+    .index-title > h1,
+    .index-title > h2 {
+        font-size: 28px;
     }
 }
 
@@ -140,5 +145,14 @@ main {
 
     .reverse {
         flex-direction: row-reverse;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    /* XL */
+    .index-title > h1,
+    .index-title > h2 {
+        font-size: 32px;
     }
 }
