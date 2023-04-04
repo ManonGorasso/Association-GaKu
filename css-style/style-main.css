@@ -5,8 +5,8 @@ main {
     flex-direction: column;
     align-items: center;
 
-    margin-top: 77px;                   /* change selon hauteur header */
-    width: 75%;                         /* change selon media queries */
+    margin-top: 63px;                   
+    width: 100%;                        /* change selon media queries */
 
     padding: 40px 32px;
     gap: 32px;
@@ -17,23 +17,31 @@ main {
     display: flex;
     flex-direction: column;
     align-content: center;
-    justify-content: space-around;
 
+    width: 375px;                       /* change selon media queries */
     height: 85vh;
 }
 
-.title-container {
+.index-title,
+.index-btn {
     display: flex;
     flex-direction: column;
     align-content: center;
-    justify-content: space-around;
-
+    justify-content: center;
     gap: 24px;
-    width: 100%;
 }
 
-.title-container > h1,
-.title-container > h2 {
+.index-title {
+    width: 100%;
+    flex: 2;
+}
+
+.index-btn {
+    flex: 1;
+}
+
+.index-title > h1,
+.index-title > h2 {
     font-size: 24px;
     color: #B63B1A;
     font-weight: 600;
@@ -41,18 +49,16 @@ main {
     margin: 0;
 }
 
-.title-container > h1 {
+.index-title > h1 {
     text-align: left;   
 }
 
-.title-container > h2 {
+.index-title > h2 {
     text-align: right;
 }
 
-/* Style other pages */
 
-
-
+/* Style autres pages */
 h1,
 h2 {
     text-align: left;
@@ -81,4 +87,69 @@ article > img {
 article > section {
     width: 100%;
     text-align: justify;
+}
+
+
+/* MEDIA QUERIES - breakpoint idem Bootstrap */
+
+@media screen and (min-width: 576px) {
+    /* SM */
+    /*
+    font-size
+    header : 24px
+    default : 18px
+    secondary : 16px
+    tertiary caption : 12px
+    */
+}
+
+@media screen and (min-width: 768px) {
+    /* MD */
+    /*
+    font-size
+    header : 28px
+    default : 18px
+    secondary : 16px
+    tertiary caption : 12px
+    */
+    main {
+        width: 58%;                         /* change selon media queries */
+    }
+
+    .index-container {
+        width: 550px;                       /* change selon media queries */
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* LG */
+    /*
+    font-size
+    header : 28px
+    default : 18px
+    secondary : 16px
+    tertiary caption : 12px
+    */
+}
+
+@media screen and (min-width: 1200px) {
+    /* XL */
+    /*
+    font-size
+    header : 32px
+    default : 20px
+    secondary : 18px
+    tertiary caption : 14px
+    */
+}
+
+@media screen and (min-width: 1400px) {
+    /* XXL */
+    /*
+    font-size
+    header : 32px
+    default : 20px
+    secondary : 18px
+    tertiary caption : 14px
+    */
 }

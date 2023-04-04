@@ -4,7 +4,7 @@ footer {
     width: 100%;
     color: #F9FAF9;
     background-color: #130F0C;
-    font-size: 16px;                /* change selon media queries*/
+    font-size: 16px;               
     text-align: center;
 
     display: flex;
@@ -19,7 +19,7 @@ footer {
 .copyright {
     padding: 0;
     margin: 0;
-    font-size: 12px;                /* change selon media queries*/
+    font-size: 12px;                
 }
 
 .footer-global-display {
@@ -102,16 +102,5 @@ footer {
     .footer-contact-container,
     .footer-social-container {
         padding: 0px;
-    }
-}
-
-@media screen and (min-width: 1400px) {
-    /* XXL */
-    footer {
-        font-size: 18px;             
-    }
-
-    .copyright {
-        font-size: 14px;
     }
 }

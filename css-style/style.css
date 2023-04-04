@@ -7,7 +7,7 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     font-size: 18px;                /* change selon les media queries */
-    line-height: 150%;
+    /* line-height: 150%;           A placer uniquement dans les paragraphes de texte !*/
 
     display: flex;
     flex-direction: column;
