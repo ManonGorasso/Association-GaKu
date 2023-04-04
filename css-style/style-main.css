@@ -84,20 +84,6 @@ main {
 }
 
 
-
-/* Style autres pages */
-h1,
-h2 {
-    text-align: left;
-    width: 100%;
-    font-size: 24px;
-}
-
-h1 {
-    font-weight: 600;
-}
-
-
 /* MEDIA QUERIES - breakpoint idem Bootstrap */
 
 @media screen and (min-width: 576px) {

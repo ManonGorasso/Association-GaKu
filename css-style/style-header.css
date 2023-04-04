@@ -18,7 +18,7 @@ header {
     --bs-dropdown-link-color: #130F0C;
     --bs-dropdown-link-hover-color: #B63B1A;
     --bs-dropdown-link-hover-bg: #F9FAF9;
-    --bs-dropdown-link-active-color: #CC765F;
+    --bs-dropdown-link-active-color: #B63B1A;
     --bs-dropdown-link-active-bg: #F9FAF9;
     --bs-dropdown-link-disabled-color: #adb5bd;
 }

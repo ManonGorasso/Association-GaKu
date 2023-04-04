@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css-style/style.css">
     <link rel="stylesheet" href="./css-style/style-background.css">
     <link rel="stylesheet" href="./css-style/style-button.css">
+    <link rel="stylesheet" href="./css-style/style-card.css">
     <link rel="stylesheet" href="./css-style/style-footer.css">
     <link rel="stylesheet" href="./css-style/style-header.css">
     <link rel="stylesheet" href="./css-style/style-main.css">
@@ -66,55 +67,225 @@
     <main class="bg-light-green">
         <h1>私たちのイベント</br>Nos événements</h1>
 
-        <!--Structure carte événement-->
-        <div>
-            <img src="./Images/Content/Tokyo-by-night.jpg" alt="tokyo-by-night" style="width: 25%; height: auto;">
-            <div>
-                <h2>VOYAGE</h2>
-                <h3>A la découverte du Japon</h3>
-                <div>
-                    <img src="./Images/Icons/Location-icon.svg" alt="location-icon">
-                    <p>Paris - Tokyo</p>
+        <!--Structure carte événement VOYAGE -->
+        <div class="travel-card">
+            <img src="./Images/Content/Tokyo-by-night.jpg" alt="Tokyo-by-night.jgp" class="travel-card-img">
+            <div class="travel-card-body">
+                <div class="card-title">
+                    <h2>VOYAGE</h2>
+                    <h3>A la découverte du Japon</h3>
                 </div>
-                <div>
-                    <img src="./Images/Icons/Calendar-icon.svg" alt="calendar-icon">
-                    <p>19 avril 2024 - 3 mai 2024</p>
-                </div>
-                <div>
-                    <img src="./Images/Icons/Teacher-icon.svg" alt="teacher-icon">
-                    <p>Hanaka & Tanako</p>
-                </div>
-                <div>
-                    <img src="./Images/Icons/Folder-icon.svg" alt="folder-icon">
-                    <p>Participez au voyage annuel de découverte du Japon, organisé pour l’ensemble de nos membres</p>
+                <div class="card-text">
+                    <div class="card-text-content">
+                        <img src="./Images/Icons/Location-icon.svg" alt="location-icon">
+                        <p>Paris - Tokyo</p>
+                    </div>
+                    <div class="card-text-content">
+                        <img src="./Images/Icons/Calendar-icon.svg" alt="calendar-icon">
+                        <p>19 avril 2024 - 3 mai 2024</p>
+                    </div>
+                    <div class="card-text-content">
+                        <img src="./Images/Icons/Teacher-icon.svg" alt="teacher-icon">
+                        <p>Hanaka & Tanako</p>
+                    </div>
+                    <div class="card-text-content">
+                        <img src="./Images/Icons/Folder-icon.svg" alt="folder-icon">
+                        <p>Participez au voyage annuel de découverte du Japon, organisé pour l’ensemble de nos membres</p>
+                    </div>
                 </div>
                 <a href="./participer-a-un-evenement.html" class="btn btn-red">Participer</a>
             </div>
         </div>
 
-        <!--Structure carte événement-->
-        <div>
-            <img src="./Images/Content/Atelier-écriture.jpg" alt="atelier-écriture" style="width: 25%; height: auto;">
-            <div>
-                <h2>COURS</h2>
-                <h3>Introduction au japonais</h3>
-                <div>
-                    <img src="./Images/Icons/Location-icon.svg" alt="location-icon">
-                    <p>Paris</p>
+        <div class="card-group-2">
+            <!--Structure carte événement COURS -->
+            <div class="lesson-card">
+                <div class="lesson-img"></div>
+                <img src="./Images/Content/Atelier-écriture.jpg" alt="atelier-écriture" class="lesson-card-img">
+                <div class="lesson-card-body">
+                    <div class="card-title">
+                        <h2>COURS</h2>
+                        <h3>Introduction au japonais</h3>
+                    </div>
+                    <div class="card-text">
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Location-icon.svg" alt="location-icon">
+                            <p>Paris</p>
+                        </div>
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Calendar-icon.svg" alt="calendar-icon">
+                            <p>8 septembre 2023</br>17h - 18h</p>
+                        </div>
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Teacher-icon.svg" alt="teacher-icon">
+                            <p>Hanaka</p>
+                        </div>
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Folder-icon.svg" alt="folder-icon">
+                            <p>Rejoignez - nous pour un premier cours d’introduction au japonais</p>
+                        </div>
+                    </div>
+                    <a href="./participer-a-un-evenement.html" class="btn btn-red">Participer</a>
                 </div>
-                <div>
-                    <img src="./Images/Icons/Calendar-icon.svg" alt="calendar-icon">
-                    <p>8 septembre 2023</br>17h - 18h</p>
+            </div>
+    
+            <!--Structure carte événement COURS -->
+            <div class="lesson-card">
+                <div class="lesson-img"></div>
+                <img src="./Images/Content/Atelier-écriture.jpg" alt="atelier-écriture" class="lesson-card-img">
+                <div class="lesson-card-body">
+                    <div class="card-title">
+                        <h2>COURS</h2>
+                        <h3>Introduction au japonais</h3>
+                    </div>
+                    <div class="card-text">
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Location-icon.svg" alt="location-icon">
+                            <p>Metz</p>
+                        </div>
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Calendar-icon.svg" alt="calendar-icon">
+                            <p>8 septembre 2023</br>17h - 18h</p>
+                        </div>
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Teacher-icon.svg" alt="teacher-icon">
+                            <p>Sagoya</p>
+                        </div>
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Folder-icon.svg" alt="folder-icon">
+                            <p>Rejoignez - nous pour un premier cours d’introduction au japonais</p>
+                        </div>
+                    </div>
+                    <a href="./participer-a-un-evenement.html" class="btn btn-red">Participer</a>
                 </div>
-                <div>
-                    <img src="./Images/Icons/Teacher-icon.svg" alt="teacher-icon">
-                    <p>Hanaka</p>
+            </div>
+        </div>
+
+        <div class="card-group-2">
+            <!--Structure carte événement COURS -->
+            <div class="lesson-card">
+                <div class="lesson-img"></div>
+                <img src="./Images/Content/Atelier-écriture.jpg" alt="atelier-écriture" class="lesson-card-img">
+                <div class="lesson-card-body">
+                    <div class="card-title">
+                        <h2>COURS</h2>
+                        <h3>Introduction au japonais</h3>
+                    </div>
+                    <div class="card-text">
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Location-icon.svg" alt="location-icon">
+                            <p>Lyon</p>
+                        </div>
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Calendar-icon.svg" alt="calendar-icon">
+                            <p>8 septembre 2023</br>17h - 18h</p>
+                        </div>
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Teacher-icon.svg" alt="teacher-icon">
+                            <p>Tanako</p>
+                        </div>
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Folder-icon.svg" alt="folder-icon">
+                            <p>Rejoignez - nous pour un premier cours d’introduction au japonais</p>
+                        </div>
+                    </div>
+                    <a href="./participer-a-un-evenement.html" class="btn btn-red">Participer</a>
                 </div>
-                <div>
-                    <img src="./Images/Icons/Folder-icon.svg" alt="folder-icon">
-                    <p>Rejoignez - nous pour un premier cours d’introduction au japonais</p>
+            </div>
+    
+            <!--Structure carte événement COURS -->
+            <div class="lesson-card">
+                <div class="lesson-img"></div>
+                <img src="./Images/Content/Atelier-écriture.jpg" alt="atelier-écriture" class="lesson-card-img">
+                <div class="lesson-card-body">
+                    <div class="card-title">
+                        <h2>COURS</h2>
+                        <h3>Introduction au japonais</h3>
+                    </div>
+                    <div class="card-text">
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Location-icon.svg" alt="location-icon">
+                            <p>Nantes</p>
+                        </div>
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Calendar-icon.svg" alt="calendar-icon">
+                            <p>8 septembre 2023</br>17h - 18h</p>
+                        </div>
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Teacher-icon.svg" alt="teacher-icon">
+                            <p>Hoshi</p>
+                        </div>
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Folder-icon.svg" alt="folder-icon">
+                            <p>Rejoignez - nous pour un premier cours d’introduction au japonais</p>
+                        </div>
+                    </div>
+                    <a href="./participer-a-un-evenement.html" class="btn btn-red">Participer</a>
                 </div>
-                <a href="./participer-a-un-evenement.html" class="btn btn-red">Participer</a>
+            </div>
+        </div>
+
+        <div class="card-group-2">
+            <!--Structure carte événement COURS -->
+            <div class="lesson-card">
+                <div class="lesson-img"></div>
+                <img src="./Images/Content/Atelier-écriture.jpg" alt="atelier-écriture" class="lesson-card-img">
+                <div class="lesson-card-body">
+                    <div class="card-title">
+                        <h2>COURS</h2>
+                        <h3>Introduction au japonais</h3>
+                    </div>
+                    <div class="card-text">
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Location-icon.svg" alt="location-icon">
+                            <p>Bordeaux</p>
+                        </div>
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Calendar-icon.svg" alt="calendar-icon">
+                            <p>8 septembre 2023</br>17h - 18h</p>
+                        </div>
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Teacher-icon.svg" alt="teacher-icon">
+                            <p>Yamamoto</p>
+                        </div>
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Folder-icon.svg" alt="folder-icon">
+                            <p>Rejoignez - nous pour un premier cours d’introduction au japonais</p>
+                        </div>
+                    </div>
+                    <a href="./participer-a-un-evenement.html" class="btn btn-red">Participer</a>
+                </div>
+            </div>
+    
+            <!--Structure carte événement COURS -->
+            <div class="lesson-card">
+                <div class="lesson-img"></div>
+                <img src="./Images/Content/Atelier-écriture.jpg" alt="atelier-écriture" class="lesson-card-img">
+                <div class="lesson-card-body">
+                    <div class="card-title">
+                        <h2>COURS</h2>
+                        <h3>Introduction au japonais</h3>
+                    </div>
+                    <div class="card-text">
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Location-icon.svg" alt="location-icon">
+                            <p>Nice</p>
+                        </div>
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Calendar-icon.svg" alt="calendar-icon">
+                            <p>8 septembre 2023</br>17h - 18h</p>
+                        </div>
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Teacher-icon.svg" alt="teacher-icon">
+                            <p>Fujisan</p>
+                        </div>
+                        <div class="card-text-content">
+                            <img src="./Images/Icons/Folder-icon.svg" alt="folder-icon">
+                            <p>Rejoignez - nous pour un premier cours d’introduction au japonais</p>
+                        </div>
+                    </div>
+                    <a href="./participer-a-un-evenement.html" class="btn btn-red">Participer</a>
+                </div>
             </div>
         </div>
 
