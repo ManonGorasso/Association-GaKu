@@ -8,6 +8,7 @@
 body {
     font-size: 18px;                /* change selon les media queries */
 
+    
     display: flex;
     flex-direction: column;
     align-items: center;

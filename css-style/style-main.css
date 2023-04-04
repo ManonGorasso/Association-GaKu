@@ -7,6 +7,7 @@ main {
 
     margin-top: 63px;                   
     width: 100%;                        /* change selon media queries */
+    min-height: calc(100vh - 63px - 225px);
 
     padding: 40px 32px;
     gap: 32px;
@@ -154,5 +155,12 @@ main {
     .index-title > h1,
     .index-title > h2 {
         font-size: 32px;
+    }
+}
+
+
+@media screen and (min-width: 2000px) {
+    main {
+        width: 42%; 
     }
 }
